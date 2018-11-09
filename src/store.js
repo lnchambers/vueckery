@@ -5,12 +5,15 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
+    count: 0
+  },
+  mutations: { // Always synchronous
 
   },
-  mutations: {
+  actions: { // Asynchronous or synchronous
 
   },
-  actions: {
+  getters: {
 
-  },
+  }
 });
