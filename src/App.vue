@@ -2,7 +2,7 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">Fuck you</router-link>
+      <router-link to="/about">Dis shit is global yo</router-link>
     </div>
     <router-view/>
     <p> Footer </p>

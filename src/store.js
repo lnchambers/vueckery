@@ -5,7 +5,7 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-    count: 0
+    count: 0,
   },
   mutations: { // Always synchronous
 
@@ -15,5 +15,5 @@ export default new Vuex.Store({
   },
   getters: {
 
-  }
+  },
 });
