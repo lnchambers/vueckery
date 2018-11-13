@@ -9,4 +9,12 @@ new Vue({
   router,
   store,
   render: h => h(App),
+  data: {
+    proofs: [
+      { name: "Proof 1" }
+      { name: "Proof 2" }
+      { name: "Proof 3" }
+      { name: "Proof 4" }
+    ]
+  },
 }).$mount('#app');
